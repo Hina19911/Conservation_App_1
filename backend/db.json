@@ -1,0 +1,62 @@
+{
+  "reservations": [
+    {
+      "id": 2,
+      "name": "Carlos Vega",
+      "email": "carlos@example.com",
+      "date": "2025-09-11",
+      "time": "13:30",
+      "partySize": 4,
+      "notes": "",
+      "imageUrl": "/uploads/lake.png"
+    },
+    {
+      "id": 3,
+      "name": "Nadine Harper",
+      "email": "nadine@example.com",
+      "date": "2025-09-13",
+      "time": "09:00",
+      "partySize": 3,
+      "notes": "Guided tour",
+      "imageUrl": "/uploads/bird.png"
+    },
+    {
+      "name": "Bill Sharp",
+      "email": "moonstar71@gmail.com",
+      "date": "2025-08-14",
+      "time": "20:00",
+      "partySize": 1,
+      "notes": "Test",
+      "imageUrl": "/uploads/bird.png",
+      "id": 4
+    },
+    {
+      "name": "ddd",
+      "email": "shazmub@gmail.com",
+      "date": "2025-08-26",
+      "time": "06:28",
+      "partySize": 3,
+      "notes": "",
+      "imageUrl": "",
+      "id": 5
+    }
+  ],
+  "tickets": [
+    {
+      "reservationId": 2,
+      "name": "Carlos Vega",
+      "email": "carlos@example.com",
+      "quantity": 1,
+      "createdAt": "2025-08-17T11:07:10.108Z",
+      "id": 3
+    },
+    {
+      "reservationId": 4,
+      "name": "Bill Sharp",
+      "email": "moonstar71@gmail.com",
+      "quantity": 1,
+      "createdAt": "2025-08-17T11:07:26.024Z",
+      "id": 4
+    }
+  ]
+}
